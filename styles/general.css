@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+    background-color: rgb(227, 236, 244);
+    border:10px solid red;
+}
+
+
+.vid-container{
+    display: block;
+    width: 100%;
+    min-height:590px;
+    overflow: hidden;    
+}
+
+.logo-img{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 40%;
+    z-index: 20;
+    border-top-left-radius: 253px;
+    border-top-right-radius: 253px;
+    border-bottom-left-radius: 253px;
+    border-bottom-right-radius: 253px;
+    transition: 3s ease-in-out;
+}
+.video{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.services-container{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.services-container h4{
+    display: flex;
+    justify-content: center;
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: rows;
+    justify-content: center;
+    min-height: 220px;
+    
+}
+.service{
+    display: block;
+    margin-left: 20px;
+    min-width: 200px;
+    border: 1.5px solid rgb(205, 210, 215);
+    margin-bottom: 20px;
+
+}
+
+
+
+
+.icon{
+    width: 70px;
+    margin-left: 60px;
+}
+.icon-background{
+    background-color: rgb(205, 210, 215);
+    margin-bottom: 0;
+}
+
+.describtion h4{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    margin-top: 4px;
+    background-color: rgb(205, 210, 215);
+    margin-top: 0;
+}
+.describtion p{
+    width: 170px;
+    margin-left: 17px;
+    line-height: 18px;
+}
+
+
+
+.massage-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0;
+    min-height: 360px;
+}
+.massage-service{
+ 
+    background-color: rgb(227, 236, 244);
+    min-width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.spa-intro{
+    width: 200px;
+}
+
+
+.massage-info{
+    background-color: rgb(205, 210, 215);
+    max-width: 300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-right: 1rem;
+
+}
+.massage{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.massage-discription{
+    width: 210px;
+}
+.massage-title{
+    font-weight: bold;
+}
+.massage-title p{
+    padding-bottom: 0;
+}
+.massage-price{
+    padding-top: 50px;
+    display: flex;
+}
+
+
+
+.massage-video{
+    width: 201px;
+    overflow: hidden;
+}
+.massage-clip{
+    width: 200px;
+}
+
+
+
+.accommo-sec{
+    background-color: rgb(205, 210, 215);
+    padding-bottom: 30px;
+    padding-top: 10px;
+    margin-top: 60px;
+}
+.accommo-description h4{
+    display: flex;
+    justify-content: center;
+}
+.accommo-intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.accommo-icon-container{
+    width: 130px;
+    height: 130px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+
+.accommo-icon{
+    width: 100%;
+    height: 100%;
+}
+
+
+.rooms-description{
+    width: 400px;
+}
+
+
+
+
+.rooms-sec{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.room-img{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    border: 1px solid rgb(205, 210, 215);
+    margin-left: 20px;
+    margin-bottom: 1rem;
+}
+.room-pic{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.private-event-section{
+    display: grid;
+    grid-template-columns: 1fr 2.9fr 2fr;
+    min-height: 15.5em;
+    background-color: rgb(205, 210, 215);
+    margin-top: 50px;
+    margin-bottom: 1rem;
+}
+.private-event-sign{
+    background-color: rgb(205, 210, 215);
+}
+.event-service-container{
+    background-color: rgb(205, 210, 215);
+    
+}
+.event-sign-container{
+    width: 50%;
+    height: 50%;
+    margin-top: 20%;
+    margin-left: 25%;
+    margin-bottom: 0;
+    display: flex;
+}
+.event-sign-svg{
+    width: 100%;
+    height: 100%;
+}
+.private-event-sign h4{
+    margin-left: 27%;
+    margin-top: 0;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+.event-video{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(205, 210, 215);
+}
+
+

@@ -1,0 +1,62 @@
+@media (max-width: 1076px) {
+ .vid-container {
+  min-height: 100%;
+ }
+}
+@media (max-width: 702px) {
+    .hamburger-menu {
+      display: block;
+    }
+    .desktop-nav {
+      display: none;
+    }
+    .contacts{
+        display: none;
+    }
+    .about{
+        display: none;
+    }
+
+    .header{
+        grid-template-columns: 100px 4.5fr 0.5fr;
+        
+    }
+
+    .private-event-section{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .private-event-sign{
+      width: 40%;
+      height: 40%;
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 903px) {
+    .massage-sec{
+      flex-direction: column;
+      max-width: 30rem;
+      margin: 0 auto;
+    }
+    
+    .massage-video{
+      min-width: 280px;
+      margin: 0 auto;
+    }
+    .massage-info{
+      margin: 0 auto;
+    }
+    .massage-clip{
+      width: 100%;
+    }
+
+    .about-section{
+      flex-direction: column;
+    }
+
+  }
+
+ 
+  
